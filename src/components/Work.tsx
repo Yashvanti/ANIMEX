@@ -13,12 +13,18 @@ const Work = () => {
   const filters = ['All Work', 'Graphic Design', '2D Animation', '3D Animation', 'Web Design', 'Video Editing'];
 
   const projects = [
-    { id: 1, title: 'Neon Brand Identity', category: 'Graphic Design', img: 'https://picsum.photos/seed/work1/800/600' },
-    { id: 2, title: 'SaaS Dashboard UI', category: 'Web Design', img: 'https://picsum.photos/seed/work2/800/600' },
-    { id: 3, title: 'Abstract 3D Motion', category: '3D Animation', img: 'https://picsum.photos/seed/work3/800/600' },
-    { id: 4, title: 'Corporate Promo', category: 'Video Editing', img: 'https://picsum.photos/seed/work4/800/600' },
-    { id: 5, title: 'Character Animation', category: '2D Animation', img: 'https://picsum.photos/seed/work5/800/600' },
-    { id: 6, title: 'E-commerce Platform', category: 'Web Design', img: 'https://picsum.photos/seed/work6/800/600' },
+    { id: 1, title: 'Neon Brand Identity', category: 'Graphic Design', img: 'https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&q=80&w=800&h=600' },
+    { id: 2, title: 'SaaS Dashboard UI', category: 'Web Design', img: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800&h=600' },
+    { id: 3, title: 'Futuristic 3D Environment', category: '3D Animation', img: 'https://images.unsplash.com/photo-1633167606207-d840b5070fc2?auto=format&fit=crop&q=80&w=800&h=600' },
+    { id: 4, title: 'Corporate Promo', category: 'Video Editing', img: 'https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&q=80&w=800&h=600' },
+    { id: 5, title: 'Character Animation', category: '2D Animation', img: 'https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?auto=format&fit=crop&q=80&w=800&h=600' },
+    { id: 6, title: 'E-commerce Platform', category: 'Web Design', img: 'https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=800&h=600' },
+    { id: 7, title: 'Minimalist Logo Suite', category: 'Graphic Design', img: 'https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&q=80&w=800&h=600' },
+    { id: 8, title: 'Crypto Wallet App', category: 'Web Design', img: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=800&h=600' },
+    { id: 9, title: 'Mechanical 3D Assembly', category: '3D Animation', img: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800&h=600' },
+    { id: 10, title: 'Music Video Edit', category: 'Video Editing', img: 'https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&q=80&w=800&h=600' },
+    { id: 11, title: 'Explainer Video', category: '2D Animation', img: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=800&h=600' },
+    { id: 12, title: 'Luxury Brand Poster', category: 'Graphic Design', img: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=800&h=600' },
   ];
 
   const filteredProjects = activeFilter === 'All Work' 
