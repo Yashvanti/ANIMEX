@@ -97,9 +97,12 @@ const About = () => {
             ))}
           </div>
 
-          <button className="px-10 py-4 bg-dark text-white font-bold rounded-full hover:bg-gray-800 transition-colors shadow-xl shadow-black/10">
+          <a 
+            href="#team"
+            className="inline-block px-10 py-4 bg-dark text-white font-bold rounded-full hover:bg-gray-800 transition-colors shadow-xl shadow-black/10 text-center"
+          >
             Meet The Team
-          </button>
+          </a>
         </div>
       </div>
     </section>
